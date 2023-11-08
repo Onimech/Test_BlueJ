@@ -1,0 +1,31 @@
+#BlueJ class context
+comment0.target=CanvasRobot
+comment0.text=\r\n\ Draws\ robots\ on\ a\ canvas.\r\n\ \r\n\ @author\ Patrick\ Girard\ \r\n\ @version\ 2021.08\r\n
+comment1.params=colourBody
+comment1.target=CanvasRobot(java.lang.String)
+comment1.text=\r\n\ CanvasRobot\ Constructor\ -\ Creates\ a\ new\ graphical\ robot,\ which\ can\ be\ drawn.\ \r\n\ if\ the\ colour\ is\ not\ correct,\ the\ colour\ body\ is\ set\ to\ BLUE\r\n\ The\ robot\ is\ not\ drawn\ at\ this\ time\ (no\ coordinates)\r\n\r\n\ @param\ colour\ body\ colourBody\r\n
+comment10.params=
+comment10.target=boolean\ outOfCanvas()
+comment11.params=
+comment11.target=void\ gameOver()
+comment2.params=x\ y
+comment2.target=void\ drawRobot(int,\ int)
+comment2.text=\r\n\ Draws\ a\ robot\ onto\ the\ canvas,\ on\ ly\ if\ not\ game\ over\r\n\ If\ try\ do\ draw\ out\ of\ canvas\ or\ on\ an\ existing\ CanvasRobot\ \=>\ Game\ Over\ \!\r\n\ If\ the\ robot\ was\ already\ drawn,\ it\ is\ erased\ (thanks\ to\ Canvas)\r\n\ stores\ the\ coordinates\ to\ allow\ redraw\ if\ the\ color\ changes\r\n\r\n\ @param\ \ x,y\ \ robot\ position\r\n
+comment3.params=x\ y
+comment3.target=boolean\ movePossible(int,\ int)
+comment4.params=colourBody
+comment4.target=void\ setColourBody(java.lang.String)
+comment4.text=\r\n\ Method\ setColourBody\r\n\ Sets\ the\ colour\ of\ the\ body\ and\ draw\ it\ again\r\n\ \r\n\ @param\ colourBody\ the\ new\ colour\r\n
+comment5.params=
+comment5.target=java.lang.String\ getColourBody()
+comment5.text=\r\n\ Method\ getColourBody\r\n\r\n\ @return\ The\ actual\ color\ of\ the\ body\r\n
+comment6.params=
+comment6.target=void\ makeVisible()
+comment7.params=
+comment7.target=void\ makeInvisible()
+comment8.params=colour
+comment8.target=Colour\ valueOf(java.lang.String)
+comment8.text=\r\n\ Utilitary\ method\ valueOf\r\n\ returns\ the\ value\ of\ the\ String\ param\ il\ enum\ Colour,\ with\ no\ sensitive\ letters\r\n\ if\ the\ String\ is\ not\ a\ colour,\ returns\ "BLUE"\r\n\r\n\ @param\ colour\ the\ String\ that\ represents\ the\ colour\r\n\ @return\ value\ in\ Colour\ enum\r\n
+comment9.params=
+comment9.target=boolean\ collision()
+numComments=12

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Knight
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Knight\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=newName\ color\ newPosX\ newPosY
+comment1.target=Knight(java.lang.String,\ java.lang.String,\ int,\ int)
+comment1.text=\r\n\ Creates\ a\ new\ Knight\ object\ with\ the\ specified\ name,\ color,\ and\ initial\ position.\r\n\ The\ newly\ created\ Knight\ is\ added\ to\ a\ list\ of\ knights.\r\n\r\n\ @param\ newName\ The\ name\ of\ the\ Knight.\r\n\ @param\ color\ The\ color\ of\ the\ Knight.\r\n\ @param\ newPosX\ The\ initial\ X-coordinate\ position.\r\n\ @param\ newPosY\ The\ initial\ Y-coordinate\ position.\r\n
+comment2.params=
+comment2.target=void\ move()
+comment2.text=\r\n\ \r\n\ Moves\ the\ object\ according\ to\ a\ randomly\ generated\ L-shaped\ movement\ pattern.\r\n\ The\ movement\ pattern\ is\ generated\ using\ a\ random\ number\ generator,\ and\ the\ object\r\n\ can\ move\ in\ eight\ different\ directions,\ forming\ an\ L-shaped\ pattern.\r\n\ Here\ are\ the\ 8\ possibilities\ \:\r\n\ -\ 0\ \=>\ 2\ cases\ right,\ 1\ case\ up.\r\n\ -\ 1\ \=>\ 2\ cases\ right,\ 1\ case\ down.\r\n\ -\ 2\ \=>\ 2\ cases\ down,\ 1\ case\ right.\r\n\ -\ 3\ \=>\ 2\ cases\ down,\ 1\ case\ left.\r\n\ -\ 4\ \=>\ 2\ cases\ left,\ 1\ case\ down.\r\n\ -\ 5\ \=>\ 2\ cases\ left,\ 1\ case\ up.\r\n\ -\ 6\ \=>\ 2\ cases\ up,\ 1\ case\ left.\r\n\ -\ 7\ \=>\ 2\ cases\ up,\ 1\ case\ right.\r\n
+comment3.params=xCases\ yCases
+comment3.target=void\ moveLshape(int,\ int)
+comment3.text=\r\n\ Moves\ the\ object\ in\ an\ L-shaped\ pattern\ by\ the\ specified\ number\ of\ X\ and\ Y\ cases.\r\n\ If\ the\ new\ position\ after\ the\ movement\ is\ not\ a\ collision\ and\ is\ within\ the\ canvas,\ the\ object\ is\ moved.\r\n\ If\ there\ is\ a\ collision\ or\ the\ new\ position\ is\ out\ of\ the\ canvas\ boundaries,\ the\ movement\ is\ canceled,\ and\ the\ object's\ color\ is\ changed\ to\ a\ random\ color,\ and\ a\ collision\ sound\ is\ played.\r\n\r\n\ @param\ xCases\ The\ number\ of\ X\ cases\ to\ move.\r\n\ @param\ yCases\ The\ number\ of\ Y\ cases\ to\ move.\r\n
+comment4.params=
+comment4.target=void\ playCollisionSound()
+comment4.text=\r\n\ Plays\ a\ collision\ sound\ when\ a\ collision\ occurs.\ The\ sound\ is\ loaded\ from\ an\ audio\ file\ called\ "bonk.wav.\r\n
+comment5.params=event
+comment5.target=void\ update(javax.sound.sampled.LineEvent)
+numComments=6
